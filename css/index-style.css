@@ -1,0 +1,55 @@
+.slike-red1 {
+    width: 70%;
+    margin: auto;
+    margin-top: 8%;
+}
+
+.slike-red1 .slika {
+    width: 19%;
+    margin-left: 5%;
+    float: left;
+    display: block;
+}
+
+.slike-red1 .slika img {
+    width: 100%;
+}
+
+.slike-red2 {
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.slike-red2 .slika {
+    width: 15%;
+    margin-left: 4%;
+    float: left;
+    display: block;
+}
+
+.slike-red2 .slika img {
+    width: 100%;
+}
+
+.slika-mi {
+    width: 100%;
+}
+
+.slika-mi .slika {
+    margin: auto;
+    width: 20%;
+    margin-top: 5%; 
+}
+
+.slika-mi img {
+    width: 100%
+}
+
+.slika {
+    transition: transform .2s;
+}
+
+.slika:hover {
+    transform: scale(1.2);
+}

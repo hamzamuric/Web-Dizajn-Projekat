@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url("../WD/frames_n_pics/wooodeee.png");
+    background-repeat: repeat;
+    padding-bottom: 50px;
+}
+
+.zaglavlje {
+    background-image: url("../WD/frames_n_pics/background-wall.jpg");
+    width: 100%;
+    height: 20%;
+}
+
+.logo {
+    width: 100%;
+    margin-bottom: 5px;
+    box-shadow: 2px 6px 20px 2px;
+}
+
+.logo-kontejner {
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+.navigacija-kontejner {
+    background: url("../WD/frames_n_pics/background-horizontal-nav.jpg");
+    width: 100%;
+    height: 6%;
+    position: absolute;
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+}
+
+nav img {
+    width: 75%;
+    height: 98%;
+    transition: transform .2s;
+    border: 1px black solid;
+}
+
+.navbar_link:hover {
+    transform: scale(1.2);
+}
+
+nav li {
+    font-size: 1em;
+    height: 100%;
+    float: left;
+    display: block;
+    line-height: 2em;
+    width: 10%;
+    text-align: center;
+}
+
+/* Kontejner sa sadrzajem */
+.sadrzaj {
+    background: bisque;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 1em;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+.sadrzaj img {
+    float: left;
+    width: 40%;
+    height: auto;
+}
+
+/* Strelica za nazad */
+.back {
+    width: 50px;
+    height: 50px;
+    bottom: 30px;
+    left: 30px;
+    border-radius: 50%;
+    background: bisque;
+    position: fixed;
+    box-shadow: 0 3px 10px black;
+    transition: transform .2s;
+}
+
+.back:hover {
+    transform: scale(1.3);
+}
+
+.back a {
+    position: absolute;
+}
+
+.back img {
+    width: 100%;
+    height: 100%;
+}

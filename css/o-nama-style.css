@@ -1,0 +1,16 @@
+.sadrzaj {
+    width: 40%;
+    margin: 0 3%;
+    margin-top: 5%;
+    float: left;
+}
+
+.sadrzaj .naslov {
+    margin-bottom: 20px;
+}
+
+.sadrzaj img {
+    width: 30%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
