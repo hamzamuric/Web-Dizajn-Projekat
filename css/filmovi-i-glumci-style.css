@@ -1,0 +1,21 @@
+#shawshank {
+    max-height: 300px;
+    width: auto;
+}
+
+.sadrzaj ol {
+    padding-left: 2em;
+}
+
+#star-wars-countdown {
+    font-size: 7rem;
+    width: 100%;
+    text-align: center;
+}
+
+#r2d2 {
+    height: 100px;
+    width: auto;
+    margin: 0;
+    transform: translateY(-120px);
+}
