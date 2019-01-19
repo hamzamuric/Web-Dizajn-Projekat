@@ -11,6 +11,7 @@ html {
 body {
     background: url("../WD/frames_n_pics/wooodeee.png");
     background-repeat: repeat;
+    padding-bottom: 100px;
 }
 
 .zaglavlje {
@@ -107,4 +108,10 @@ nav li {
 .back img {
     width: 100%;
     height: 100%;
+}
+
+.naslov{
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
 }
