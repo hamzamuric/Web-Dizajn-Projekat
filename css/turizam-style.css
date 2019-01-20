@@ -1,0 +1,24 @@
+.sadrzaj {
+    overflow: auto;
+}
+
+.sadrzaj img {
+    margin-bottom: 0;
+}
+
+#kula-slika img {
+    image-orientation: from-image;
+}
+
+.minigalerija-slika {
+    width: 28%;
+    margin: 1em;
+    overflow: auto;
+    float: left;
+}
+
+.minigalerija-slika img {
+    width: 100%;
+    margin-bottom: 1em;
+    display: block;
+}
