@@ -41,7 +41,7 @@
 
     <div class="sadrzaj">
         <h3 class="naslov">Osnivanje Novog Pazara</h3><br>
-        <p class="tekst">
+        <p>
             Grad Novi Pazar osnovali su turci. On je veoma brzo postao krupan
             administrativno-ekonomski centar i jedan od važnijih gradova evropskog dela Turskog Carstva.
             Novopazarska oblast konačno je postala turska u proleće 1455. godine, iako je u celoj pokrajni
@@ -57,7 +57,7 @@
 
     <div class="sadrzaj">
         <h3 class="naslov">Podaci o Novom Pazaru</h3><br>
-        <p class="tekst">
+        <p>
             Država: Srbija. <br>
             Broj stanovnika: 100.410 (po popisu iz 2011. zajedno sa okolnim područjem). <br>
             Gustina stanovništva: 89.66 st./km<sup>2</sup> <br>
@@ -69,7 +69,7 @@
             <div class="kontejner">
                 <img src="WD/frames_n_pics/pazar-mapa.png" alt="" id="mapa">
                 <div class="overlay">
-                    <div class="overlay-text">Kliknite ovde za Mapu</div>
+                    <div class="overlay-text">Kliknite ovde za mapu</div>
                 </div>
             </div>
         </a>
@@ -84,7 +84,7 @@
         window.onload = function() {
             let danas = new Date().getFullYear();
             let godinaStarosti = Math.abs(danas - 1461);
-            document.getElementById("danas").innerHTML = danas + ".";
+            document.getElementById("danas").innerHTML = danas + .";
             document.getElementById("godine").innerHTML = godinaStarosti;
         }
     </script>
