@@ -1,0 +1,19 @@
+.sadrzaj img {
+    float: right;
+}
+
+b {
+    color:navy;
+}
+
+b:hover {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sadrzaj {
+    overflow: auto;
+}
