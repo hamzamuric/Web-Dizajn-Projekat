@@ -11,6 +11,7 @@ html {
 body {
     background: url("../WD/frames_n_pics/wooodeee.png");
     background-repeat: repeat;
+    padding-bottom: 100px;
 }
 
 .zaglavlje {
@@ -73,6 +74,8 @@ nav li {
     padding: 1em;
     border-radius: 5px;
     font-size: 1.3rem;
+    box-shadow: 1px 5px 30px 1px;
+    /* overflow: auto; */
 }
 
 .sadrzaj img {
