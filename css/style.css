@@ -85,7 +85,8 @@ nav li {
     border-radius: 5px;
     font-size: 1.3rem;
     border: 0.3px white solid;
-
+    box-shadow: 1px 5px 30px 1px;
+    /* overflow: auto; */
 }
 
 .sadrzaj img {
