@@ -1,0 +1,34 @@
+body {
+    padding-bottom: 500px;
+}
+
+.digitalni-zivot-uvod {
+    margin-top: 100px;
+}
+
+.digitalni-zivot-uvod .naslov {
+    font-size: 4rem;
+}
+
+.digitalni-zivot-uvod p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.sadrzaj {
+    width: 370pt;
+    float: left;
+    margin: 50pt 50pt;
+}
+
+.sadrzaj img {
+    width: 25%;
+    margin: 10px 4%;
+    -webkit-filter: grayscale(100%);
+    transition: transform .1s;
+}
+
+.sadrzaj img:hover {
+    -webkit-filter: grayscale(0%);
+    transform: scale(1.1);
+}
