@@ -1,6 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color:#333333;
+}
+
+a {
+    color: navy;
+}
+
+a:hover {
+    color:red;
 }
 
 html {
@@ -48,7 +58,7 @@ nav img {
     width: 75%;
     height: 98%;
     transition: transform .2s;
-    border: 1px black solid;
+    border: 0.3px bisque solid;
 }
 
 .navbar_link:hover {
@@ -74,6 +84,8 @@ nav li {
     padding: 1em;
     border-radius: 5px;
     font-size: 1.3rem;
+    border: 0.3px white solid;
+
 }
 
 .sadrzaj img {
