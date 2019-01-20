@@ -34,48 +34,61 @@
         </ul>
     </nav>
 
-    <div class="sadrzaj">
-        <img src="WD/backup/dunp.png" alt="slika">
-        <p class="tekst">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur a accusamus, explicabo
-            repellendus iusto dignissimos earum aut! Dignissimos impedit labore incidunt consequatur architecto ducimus
-            tenetur blanditiis cupiditate natus earum. Et voluptatum beatae nisi nobis sunt soluta, ducimus quidem,
-            neque cum maxime iusto atque. Distinctio minus, eos natus maxime laudantium alias molestiae quasi earum
-            quibusdam voluptate excepturi recusandae vitae qui illo! Sapiente, error explicabo. Veniam incidunt sunt
-            fugiat dolorem accusantium doloremque delectus ipsum itaque similique ut ad repellendus sapiente debitis
-            soluta excepturi, odio modi et, ipsa magnam consectetur nam ab totam? Et provident deleniti iure eos?
-            Iusto, dignissimos ipsum odio reprehenderit amet dolor aliquam illo porro, consequuntur iste in sed facere
-            quidem ea soluta iure. Ad harum voluptates nulla iure eum quos obcaecati nemo! Libero, facilis non
-            accusantium iusto sequi iste perspiciatis facere beatae ratione molestiae, esse omnis necessitatibus
-            voluptate magni laboriosam sed totam veritatis earum? In ducimus, minima quibusdam perferendis quisquam
-            fugit cum praesentium molestias maxime, voluptatum nostrum quos totam ullam quod officia dolore accusantium
-            est ipsam. Assumenda, quos architecto officia culpa, rerum tempora non numquam ad in maiores excepturi
-            explicabo perspiciatis odit corporis adipisci facere commodi optio unde sequi asperiores molestiae iure?
-            Quod aspernatur, commodi perspiciatis earum dolorem a!</p>
+    <!--Naslovna slika -->
+    <div class="sadrzaj" id="naslovna-slika">
+        <img src="WD/frames_n_pics/PANO_20170328_155206.jpg">
     </div>
 
     <div class="sadrzaj">
-        <img src="WD/backup/dunp.png" alt="slika">
-        <p class="tekst">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur a accusamus, explicabo
-            repellendus iusto dignissimos earum aut! Dignissimos impedit labore incidunt consequatur architecto ducimus
-            tenetur blanditiis cupiditate natus earum. Et voluptatum beatae nisi nobis sunt soluta, ducimus quidem,
-            neque cum maxime iusto atque. Distinctio minus, eos natus maxime laudantium alias molestiae quasi earum
-            quibusdam voluptate excepturi recusandae vitae qui illo! Sapiente, error explicabo. Veniam incidunt sunt
-            fugiat dolorem accusantium doloremque delectus ipsum itaque similique ut ad repellendus sapiente debitis
-            soluta excepturi, odio modi et, ipsa magnam consectetur nam ab totam? Et provident deleniti iure eos?
-            Iusto, dignissimos ipsum odio reprehenderit amet dolor aliquam illo porro, consequuntur iste in sed facere
-            quidem ea soluta iure. Ad harum voluptates nulla iure eum quos obcaecati nemo! Libero, facilis non
-            accusantium iusto sequi iste perspiciatis facere beatae ratione molestiae, esse omnis necessitatibus
-            voluptate magni laboriosam sed totam veritatis earum? In ducimus, minima quibusdam perferendis quisquam
-            fugit cum praesentium molestias maxime, voluptatum nostrum quos totam ullam quod officia dolore accusantium
-            est ipsam. Assumenda, quos architecto officia culpa, rerum tempora non numquam ad in maiores excepturi
-            explicabo perspiciatis odit corporis adipisci facere commodi optio unde sequi asperiores molestiae iure?
-            Quod aspernatur, commodi perspiciatis earum dolorem a!</p>
+        <h3 class="naslov">Osnivanje Novog Pazara</h3><br>
+        <p class="tekst">
+            Grad Novi Pazar osnovali su turci. On je veoma brzo postao krupan
+            administrativno-ekonomski centar i jedan od važnijih gradova evropskog dela Turskog Carstva.
+            Novopazarska oblast konačno je postala turska u proleće 1455. godine, iako je u celoj pokrajni
+            već mnogo ranije bila uspostavljena sultanova vlast. Podeljena je u četiri oblasi,
+            koje su se tada zvale vilajeti. To su bili vilajeti: Zvečan, Jeleć, Ras i Sjenica.
+            Krajišnik Isa-beg je već nešto pre godine 1460. izašao iz doline Raške i na širini
+            kod Novog Pazara sagradio novu varoš, koju je nazvao Novi Pazar.
+            Isa-beg je u novoj čaršiji sagradio 56 dućana. Tu su se izrađivali uobičajeni proizvodi,
+            neophodni čaršiji i njenim mušterijama, a naročito katanci, čekići, medenice za stoku. <br><br>
+            Novi Pazar je zvanično osnovan 1461. godine, što znači da danas (<span id="danas">0</span>) ima <span id="godine">0</span> godina.
+        </p>
+    </div>
+
+    <div class="sadrzaj">
+        <h3 class="naslov">Podaci o Novom Pazaru</h3><br>
+        <p class="tekst">
+            Država: Srbija. <br>
+            Broj stanovnika: 100.410 (po popisu iz 2011. zajedno sa okolnim područjem). <br>
+            Gustina stanovništva: 89.66 st./km<sup>2</sup> <br>
+            Nadmorska visina: 477m. <br>
+            Površina: 742km<sup>2</sup>.
+        </p>
+        <br><br>
+        <a href="https://goo.gl/maps/s7sxBqNVmD72" target="_blank">
+            <div class="kontejner">
+                <img src="WD/frames_n_pics/pazar-mapa.png" alt="" id="mapa">
+                <div class="overlay">
+                    <div class="overlay-text">Kliknite ovde za Mapu</div>
+                </div>
+            </div>
+        </a>
     </div>
 
     <!-- Strelica za nazad -->
     <div class="back">
         <a href="index.html"><img src="WD/frames_n_pics/strelica.png" alt="nazad"></a>
     </div>
+
+    <script>
+        window.onload = function() {
+            let danas = new Date().getFullYear();
+            let godinaStarosti = Math.abs(danas - 1461);
+            document.getElementById("danas").innerHTML = danas + ".";
+            document.getElementById("godine").innerHTML = godinaStarosti;
+        }
+    </script>
+
 </body>
 
 </html>

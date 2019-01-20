@@ -1,0 +1,57 @@
+.sadrzaj {
+    overflow: auto;
+}
+
+#naslovna-slika {
+    padding: 0;
+    width: 73%;
+    margin-top: 5em;
+}
+
+#naslovna-slika img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+/* CSS za mapu i tekst koji se prikazuje preko nje */
+.kontejner {
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+.kontejner img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+}
+
+.kontejner:hover .overlay {
+    opacity: 0.8;
+}
+
+.overlay-text {
+    font-size: 4rem;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    left: 20%;
+    padding-top: 20%;
+    text-align: center;
+}
+/* Kraj CSS-a za mapu */
