@@ -1,0 +1,24 @@
+html, body {
+    height: auto;
+    overflow: auto;
+}
+
+* {
+    text-decoration: none;
+}
+
+.naslov:hover {
+    color:navy;
+}
+
+.sadrzaj {
+    width: 40%;
+    margin: 0 3.5%;
+    margin-top: 5%;
+    float: left;
+    background-color: transparent;
+}
+
+.sadrzaj img {
+    width:100%;
+}
