@@ -13,3 +13,19 @@ html, body {
 .sadrzaj .naslov {
     margin-bottom: 20px;
 }
+
+.sadrzaj img {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: block;
+}
+
+.siroka-slika {
+    width: 100%;
+    overflow: auto;
+}
+
+.sadrzaj p {
+    width: 100%;
+    text-align: center;
+}
