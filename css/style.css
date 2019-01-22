@@ -97,6 +97,10 @@ nav li {
     height: auto;
 }
 
+.prvi {
+    margin-top: 10%;
+}
+
 /* Strelica za nazad */
 .back {
     width: 50px;
