@@ -1,0 +1,23 @@
+.sadrzaj {
+    overflow: auto;
+}
+
+#raspberry {
+    width: 10%;
+    float: right;
+}
+
+#android {
+    width: 10%;
+    float: right;
+    /* negativne margine potrebne zbog ne tako dobre png slike.
+     * (providna pozadina zauzima mesto) 
+     */
+    margin-top: -10px;
+    margin-right: -10px;
+}
+
+#django {
+    width: 10%;
+    margin-bottom: 0;
+}
