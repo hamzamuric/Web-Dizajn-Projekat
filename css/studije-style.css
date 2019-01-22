@@ -1,0 +1,22 @@
+.sadrzaj ul {
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.sadrzaj {
+    overflow: auto;
+}
+
+.go {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: auto;
+}
+
+.go img {
+    width:200px;
+    height: 165px;
+    margin: 20px auto 0 50%;
+    transform: translateX(-50%);
+}
