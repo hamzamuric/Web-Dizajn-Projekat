@@ -14,9 +14,6 @@
     overflow: auto;
 }
 
-.go img {
-    width:200px;
-    height: 165px;
-    margin: 20px auto 0 50%;
-    transform: translateX(-50%);
+.go a {
+  text-decoration:none;
 }
